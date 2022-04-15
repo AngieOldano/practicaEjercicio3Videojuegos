@@ -14,3 +14,6 @@ object delfina {
 		consolaActual.usar()}
 }
 
+object marco{
+	
+}
