@@ -1,6 +1,6 @@
 import consolas.*
 
-object arkaniod {
+object arkanoid {
 	method diversionQueOtorga(consola) = 50
 }
 

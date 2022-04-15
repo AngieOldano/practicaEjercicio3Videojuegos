@@ -7,9 +7,10 @@ object delfina {
 	var consolaActual = play
 	method diversion() = nivelDiversion
 	method agarrar(consola){  // ESTO ES UN SETTER
-		consolaActual = consola	
-	}
-	method jugar(videojuego){
+		consolaActual = consola	}
 		
-	}
+	method jugar(videojuego) {
+		nivelDiversion += videojuego.diversionQueOtorga(consolaActual)
+		consolaActual.usar()}
 }
+

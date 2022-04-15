@@ -1,0 +1,18 @@
+import delfina.*
+import consolas.*
+import juegos.*
+
+test "test de jugar para delfina" {
+	assert.that(true)// VARIAR UN RESULTADO ES V O F	
+	delfina.jugar(arkanoid)	
+	assert.equals(50, delfina.diversion())
+		
+}
+
+
+test "test de jugar para delfina 150" {
+	assert.that(true)// VARIAR UN RESULTADO ES V O F	
+	delfina.jugar(mario)	
+	assert.equals(100, delfina.diversion())
+		
+}
